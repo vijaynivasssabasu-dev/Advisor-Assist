@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+
+# Generated local artifacts
+models/*
+!models/.gitkeep
+chroma_store/*
+!chroma_store/.gitkeep
+
+# Local environment and secrets
+.env
+.venv/
+venv/
+
